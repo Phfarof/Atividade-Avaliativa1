@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Manrope:wght@200..800&display=swap');
 
 :root{
     --fonte1: "Inter", sans-serif;
-    --fonte2: "Manrope", sans-serif;
     --branco: #fff;
     --azul: #0258F8;
+    --cinza: #7E8492;
 }
 
 body{
@@ -18,7 +17,7 @@ a{
     text-decoration: none;
 }
 
-.Start div{
+.initial div{
     font-family: var(--fonte1);
     font-size: 15px;
     font-weight: 500;
@@ -27,18 +26,18 @@ a{
     padding: 10% 2% 5% 6%;
 }
 
-.Start div p{
+.initial div p{
     padding-left: 3%;
 }
 
-.Start h1{
+.initial h1{
     font-family: var(--fonte1);
     font-size: 30px;
     padding: 0% 15% 0% 6%;
     font-weight: 600;
 }
 
-.Start p{
+.initial p{
     font-family: var(--fonte1);
     color: #7E8492;
     font-size: 16px;
@@ -110,13 +109,122 @@ a{
 .all{
     display: flex;
     flex-direction: column;
+    padding-bottom: 10%;
+}
+
+.graphics{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .graphics img{
-    padding: 1%;
+    border-radius: 5px;
 }
 
 #graphic1{
-    height: 170px;
-    width: 200px;
+    height: 130px;
+    width: 170px;
+    
+}
+
+#graphic2{
+    height: 150px;
+    width: 170px;
+}
+
+#graphic3{
+    height: 230px;
+    width: 130px;
+       
+}
+
+#graphic4{
+    height: 150px;
+    width: 170px;
+    padding: 5% 0% 0% 0%;
+}
+
+.bar{
+    background-color: var(--azul);
+    padding: 4%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.middle{
+    margin-top: 10%;
+}
+
+.middle h1{
+    padding: 0% 5%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.middle p {
+    color: var(--cinza);
+    padding: 5% 5% 7% 5%;
+    font-size: 17px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2%;
+}
+
+.numbers h2{
+    color: var(--azul);
+    padding: 0% 0% 0% 10%;
+    font-weight: 600;
+}
+
+.numbers h4{
+    font-size: 17px;
+    padding: 5% 0% 0% 10%;
+    font-weight: 600;
+}
+
+.numbers p{
+    padding: 5% 5%;
+    font-size: 14px;
+    padding: 3% 0% 0% 10%;
+}
+
+.numbers:last-child{
+    padding-top: 5%;
+    padding-right: 10%;
+}
+
+.second-middle{
+    margin-top: 30%;
+    padding: 0% 5%;
+}
+
+.second-middle h1{
+    font-size: 31px;
+    font-weight: 600;
+    padding-bottom: 5%;
+}
+
+.second-middle p{
+    color: var(--cinza);
+    padding-bottom: 6%;
+}
+
+.checks img{
+    height: 20px;
+    width: 20px;
+}
+
+.checks{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.checks h4{
+    padding: 3% 5%;
 }
