@@ -237,6 +237,7 @@ a{
 .third-middle{
     /* Usei esse gradiente para a mudança de cores ficar menos perceptível, e não mudar muito seco */
     background: linear-gradient( #fff, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF); 
+    padding-bottom: 15%;
 }
 
 .third-middle h1{
@@ -285,4 +286,58 @@ a{
 
 #text{
     font-size: 19px;
+}
+
+.end{
+    background-color: #FAFBFF;
+}
+
+.end a{
+    display: flex;
+    justify-content: center;
+    color: var(--azul);
+    background-color: #EBF5FD;
+    margin: 0% 25% 5% 25%;
+    border-radius: 30px;
+    padding: 2%;
+}
+
+.end h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5%;
+}
+
+.end p{
+    color: var(--cinza);
+    text-align: center;
+    font-size: 16px;
+    padding: 0% 5% 10% 5%;
+}
+
+.profile{
+    display: flex;
+    justify-content: start;
+}
+
+.profile img{
+    height: 60px;
+    width: 60px;
+    margin: 0% 0% 0% 10%
+}
+
+.profile div{
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.profile div h5{
+    font-size: 16px;
+    display: flex;
+}
+
+.profile div p{
+    font-size: 13px;
+    padding-right: 0%;
 }
