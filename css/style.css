@@ -28,6 +28,7 @@ a{
 
 .initial div p{
     padding-left: 3%;
+    padding-top: 0%;
 }
 
 .initial h1{
@@ -231,4 +232,57 @@ a{
 
 .data{
     padding-top: 8%;
+}
+
+.third-middle{
+    /* Usei esse gradiente para a mudança de cores ficar menos perceptível, e não mudar muito seco */
+    background: linear-gradient( #fff, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF); 
+}
+
+.third-middle h1{
+    padding: 10% 5% 0% 5%;
+    font-size: 30px;
+    font-weight: 600;
+}
+    
+.third-middle p{
+    color: var(--cinza);
+    padding: 3% 5% 10% 5%;
+    font-size: 16px;
+}
+
+.third-middle a{
+    color: var(--branco);
+    background-color: var(--azul);
+    padding: 3% 6%;
+    border-radius: 40px;
+    margin: 10% 0% 0% 5%;
+}
+
+.third-middle article{
+    background-color: var(--branco);
+    border: #EDEDED 1px solid;
+    border-radius: 10px;
+    margin: 10% 5%;
+}
+
+.third-middle article h4{
+    font-size: 26px;
+    padding: 5% 0% 0% 5%;
+    font-weight: 600;
+}
+
+.third-middle article p{
+    font-size: 18px;
+    padding-bottom: 20%;
+}
+
+.third-middle article img{
+    height: 60px;
+    width: 60px;
+    padding: 0% 0% 5% 5%;
+}
+
+#text{
+    font-size: 19px;
 }
