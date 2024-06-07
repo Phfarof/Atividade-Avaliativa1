@@ -439,3 +439,28 @@ hr{
     font-size: 18px;
     font-weight: 300;
 }
+
+@media (min-width: 1330px){
+    .initial p{
+        color: #000000;
+        font-size: 16px;
+        padding: 5% 8% 0% 6%;
+    }
+
+    .rate img{
+        height: 30px;
+    }
+
+    .initial .rate{
+        padding: 5% 0% 2% 8%;
+    }
+
+    .initial div p{
+        padding-left: 1%;
+    }
+
+    .initial h1{
+        font-size: 90px;
+        margin: 0% 35% 0% 2%;
+    }
+}
