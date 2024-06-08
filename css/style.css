@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
     --fonte1: "Inter", sans-serif;
+    --fonte2: "Poppins", sans-serif;
     --branco: #fff;
     --azul: #0258F8;
     --cinza: #7E8492;
@@ -143,7 +145,6 @@ a{
 #graphic4{
     height: 150px;
     width: 170px;
-    padding: 5% 0% 0% 0%;
 }
 
 .bar{
@@ -152,6 +153,10 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.bar-2{
+    display: none;
 }
 
 .middle{
@@ -441,6 +446,13 @@ hr{
 }
 
 @media (min-width: 1330px){
+    .desktop{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-right: 8%;
+    }
+
     .initial p{
         color: #000000;
         font-size: 16px;
@@ -452,15 +464,111 @@ hr{
     }
 
     .initial .rate{
-        padding: 5% 0% 2% 8%;
+        padding: 5% 0% 2% 15%;
     }
 
     .initial div p{
         padding-left: 1%;
     }
 
+    .initial div {
+        padding: 8% 2% 5% 15%;
+    }
+
     .initial h1{
-        font-size: 90px;
-        margin: 0% 35% 0% 2%;
+        font-size: 87px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; 
+        letter-spacing: -1.44px;
+        font-family: var(--fonte2);
+        margin: 0% 0% 0% 9%;
+    }
+
+    .initial p{
+        color: #7E8492;
+        font-size: 22px;
+        padding: 2% 35% 0% 15%;
+    }
+
+    .graphics img{
+        border-radius: 20px;
+    }
+
+    #graphic1{
+        height: 330px;
+        width: 370px;
+        padding: 5%;
+        
+    }
+    
+    #graphic2{
+        height: 350px;
+        width: 370px;
+        padding: 1%;
+    }
+    
+    #graphic3{
+        height: 530px;
+        width: 330px;
+        padding: 1%;
+    }
+    
+    #graphic4{
+        height: 300px;
+        width: 370px;
+        padding: 1%;
+    }
+
+    .btn{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    
+    .btn .first{
+        padding: 2% 5% 2% 5%;
+        margin-bottom: 0%;
+        font-weight: 600;
+    }
+    
+    .btn .last{
+        padding: 2% 5% 2% 7%;
+        font-weight: 800;
+    }
+    
+    .btn .last img{
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        left: 20.5%;
+    }
+
+    .users{
+        justify-content: start;
+        gap: 30px;
+    }
+
+    .users p{
+        padding: 0% 0% 0% 0%;
+        font-size: 20px;
+    }
+    
+    .users h3{
+        font-size: 20px;
+        padding: 0% 0% 0% 0%;
+    }
+
+    .users img{
+        height: 50px;
+    }
+    
+    .bar{
+        display: none;
+    }
+
+    .bar-2{
+        display: flex;
+        
     }
 }

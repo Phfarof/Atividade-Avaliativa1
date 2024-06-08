@@ -65,9 +65,5 @@ header a{
         align-items: center;
         gap: 50px;
     }
-    
-    .desktop{
-        display: flex;
-        justify-content: space-evenly;
-    }
+
 }
