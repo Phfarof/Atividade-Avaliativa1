@@ -247,6 +247,10 @@ a{
     padding-top: 8%;
 }
 
+.data-desktop{
+    display: none;
+}
+
 .third-middle{
     /* Usei esse gradiente para a mudança de cores ficar menos perceptível, e não mudar muito seco */
     background: linear-gradient( #fff, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF); 
@@ -661,22 +665,52 @@ hr{
     }
 
     .second-middle{
-        margin-top: 20%;
+        margin-top: 15%;
+        padding: 0% 5%;
     }
     
     .second-middle h1{
-        font-size: 56px;
+        font-size: 70px;
         font-weight: 600;
-        padding: 0% 0% 5% 2%;
+        padding: 0% 34% 2% 2%;
     }
     
     .second-middle p{
         color: var(--cinza);
-        padding-bottom: 6%;
+        font-size: 20px;
+        padding: 0% 58% 6% 2%;
+        line-height: 180%;
     }
 
     .second-middle-desktop{
         display: flex;
+        padding-right: 0%;
     }
 
+    .checks{
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        padding-top: 5%;
+    }
+    
+    .checks img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .checks h4{
+        padding: 3% 0% 3% 3%;
+        font-size: 20px;
+    }
+
+    .data{
+        display: none;
+    }
+
+    .data-desktop{
+        display: flex;
+        border-radius: 10px;
+        margin-left: 1.5%;
+    }
 }
