@@ -714,4 +714,8 @@ hr{
         border-radius: 10px;
         margin-left: 1.5%;
     }
+    
+    .image-desktop{
+        display: flex;
+    }
 }
