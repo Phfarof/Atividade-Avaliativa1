@@ -30,7 +30,7 @@ header a{
 }
 
 
-@media (min-width: 1920px){
+@media (min-width: 1330px){
     .menu{
         display: none;
     }
@@ -57,6 +57,7 @@ header a{
     .cabecalho p{
         display: flex;
         font-weight: 500;
+        cursor: pointer;
     }
 
     .cabecalho{
