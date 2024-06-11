@@ -660,6 +660,23 @@ hr{
         display: none;
     }
 
+    .second-middle{
+        margin-top: 20%;
+    }
     
+    .second-middle h1{
+        font-size: 56px;
+        font-weight: 600;
+        padding: 0% 0% 5% 2%;
+    }
+    
+    .second-middle p{
+        color: var(--cinza);
+        padding-bottom: 6%;
+    }
+
+    .second-middle-desktop{
+        display: flex;
+    }
 
 }
