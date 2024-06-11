@@ -175,6 +175,10 @@ a{
     font-size: 17px;
 }
 
+.middle hr{
+    display: none;
+}
+
 .numbers{
     display: flex;
     justify-content: space-between;
@@ -202,6 +206,10 @@ a{
 .numbers:last-child{
     padding-top: 5%;
     padding-right: 10%;
+}
+
+.numbers-desktop{
+    display: none;
 }
 
 .second-middle{
@@ -476,12 +484,10 @@ hr{
     }
 
     .initial h1{
-        font-size: 87px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 120%; 
-        letter-spacing: -1.44px;
         font-family: var(--fonte2);
+        font-size: 87px;
+        font-weight: 500;
+        line-height: 100px; 
         margin: 0% 0% 0% 9%;
     }
 
@@ -568,7 +574,92 @@ hr{
     }
 
     .bar-2{
+        background-color: var(--azul);
+        padding: 2%;
         display: flex;
-        
+        justify-content: space-evenly;
+        align-items: center;
     }
+
+    .bar-2 img{
+        height: 45px;
+        width: 100px;
+    }
+
+    #afterpay{
+        height: 30px;
+        width: 130px;
+    }
+
+    #stripe{
+        height: 40px;
+        width: 80px;
+    }
+
+    .desktop-2{
+        display: flex;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .middle h1{
+        padding: 0% 4% 0% 7%;
+        font-size: 80px;
+    }
+    
+    .middle .desktop-2 p {
+        color: var(--cinza);
+        padding: 0% 5% 0% 4%;
+        font-size: 20px;
+        width: 35%;
+        line-height: 40px;
+        font-weight: 500;
+    }
+
+    .middle hr{
+        display: flex;
+        margin: 0% 7%;
+    }
+
+    .numbers{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5% 0% 0% 5%;
+        text-align: start;
+    }
+
+    .numbers h2{
+        font-family: var(--fonte2);
+        font-size: 55px;
+        padding-bottom: 1%;
+
+    }
+
+    .numbers h4{
+        font-size: 27px;
+        padding-top: 0%;
+    }
+
+    .numbers p{
+        padding: 2% 5% 0% 10%;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    #last-p{
+        font-size: 25px;
+        padding: 2% 5% 0% 10%;
+    }
+
+    .numbers-desktop{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .one, .two{
+        display: none;
+    }
+
+    
+
 }
