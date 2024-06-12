@@ -733,8 +733,43 @@ hr{
 
     .third-middle p{
         font-size: 1.5rem;
-        padding: 1% 58% 15% 5%;
+        padding: 1% 58% 5% 5%;
         line-height: 150%;
+    }
+    
+    .third-middle a{
+        padding: 1% 2% 1% 2%;
+    }
+
+    .third-middle article{
+        margin: 10% 2%;  
+        /* mudar isso */
+    }
+
+    #articles-desktop{
+        display: flex;
+    }
+
+    .third-middle article h4{
+        font-size: 3.8rem;
+    }
+
+    #articles-desktop p{
+        font-size: 1.5rem;
+        /* mudar isso */
+        padding: 5% 0% 5% 5%;
+        width: 85%;
+    }
+    
+    .third-middle article img{
+        height: 120px;
+        width: 120px;
+        padding: 0% 0% 5% 5%;
+    }
+
+    #text{
+        font-size: 1.5rem;
+        /* mudar isso */
     }
 
 }
