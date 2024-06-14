@@ -742,8 +742,19 @@ hr{
     }
 
     .third-middle article{
-        margin: 10% 2%;  
-        /* mudar isso */
+        margin: 10% 2% 10% 2%;  
+    }
+
+    #article-content{
+        margin: 10% 0% 10% 5%;
+    }
+
+    #article-content img{
+        margin-top: 15%;
+    }
+
+    #article-content-2{
+        margin: 10% 0% 10% 5%;
     }
 
     #articles-desktop{
@@ -751,13 +762,12 @@ hr{
     }
 
     .third-middle article h4{
-        font-size: 3.8rem;
+        font-size: 3.5rem;
     }
 
     #articles-desktop p{
         font-size: 1.5rem;
-        /* mudar isso */
-        padding: 5% 0% 5% 5%;
+        padding: 5% 0% 10% 5%;
         width: 85%;
     }
     
@@ -767,8 +777,9 @@ hr{
         padding: 0% 0% 5% 5%;
     }
 
-    #text{
-        font-size: 1.5rem;
+    #text p{
+        font-size: 1.3rem;
+        padding-bottom: 25%;
         /* mudar isso */
     }
 
