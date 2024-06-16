@@ -118,11 +118,12 @@ a{
 .graphics{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .graphics img{
     border-radius: 5px;
+    margin: 2%;
 }
 
 #graphic1{
@@ -138,7 +139,7 @@ a{
 
 #graphic3{
     height: 230px;
-    width: 130px;
+    width: 150px;
        
 }
 
@@ -358,6 +359,10 @@ a{
     font-size: 13px;
 }
 
+#profile-desktop{
+    display: none;
+}
+
 #coment{
     color: #000;
     font-weight: 500;
@@ -457,7 +462,7 @@ hr{
     font-weight: 300;
 }
 
-@media (min-width: 1700px){
+@media (min-width: 1330px){
     .desktop{
         display: flex;
         justify-content: space-evenly;
@@ -790,7 +795,6 @@ hr{
     .end{
         background: linear-gradient( #FAFBFF, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff); 
         margin-top: 0%;
-
     }
 
     .end a{
@@ -806,12 +810,76 @@ hr{
     }
 
     .end p{
-        font-size: 2rem;
+        font-size: 1.9rem;
         padding: 0% 22% 5% 22%;
     }
 
-    .comentaries-pc{
-        display: flex;
+    #profile-desktop{
+        display: grid;  
     }
+
+    .comentaries-content{
+        display: flex;
+        padding: 0% 20%;
+    }
+    
+
+    .profile img{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .profile div{
+        padding-top: 3%;
+        padding-left: 3%;
+    }
+    
+    .profile div h5{
+        font-size: 20px;
+    }
+    
+    .profile div p{
+        font-size: 15px;
+        padding: 0%;
+    }
+    
+    #coment{
+        color: #000;
+        font-weight: 500;
+        text-align: start;
+        padding: 5% 9% 5% 10%;
+        font-size: 1.19rem;
+        line-height: 140%;
+    }
+
+    #star{
+        padding-left: 10%;
+        padding-bottom: 25%;
+    }
+
+    #selection{
+        height: 8px;
+        width: 200px;
+        padding: 0% 0% 0% 0%;
+        margin: 0% 45%;
+    }
+
+    .final{
+        padding: 15% 15% 5% 15%; 
+    }
+
+    .final p{
+        font-size: 1.4rem;
+        padding-bottom: 5%;
+    }
+
+    .final a{
+        color: var(--branco);
+        background-color: var(--azul);
+        padding: 1.5% 2%;
+        margin-bottom: 5%;
+        font-size: 1rem;
+    }
+
 
 }
