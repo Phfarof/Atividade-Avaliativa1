@@ -421,6 +421,10 @@ footer h1{
     margin-right: 3%;
 }
 
+.img-desktop{
+    display: none;
+}
+
 .information p{
    padding: 1% 10% 0% 0%; 
 }
@@ -441,8 +445,13 @@ footer h1{
 .media{
     height: 20px;
     width: 150px;
-    padding-left: 5%;
+    margin-left: 5%;
     margin-bottom: 6%;
+}
+
+.media img{
+    margin-right: 9%;
+    cursor: pointer;
 }
 
 hr{
@@ -460,6 +469,10 @@ hr{
     padding: 0% 0% 10% 7%;
     font-size: 18px;
     font-weight: 300;
+}
+
+.fundo-desktop{
+    display: none;
 }
 
 @media (min-width: 1330px){
@@ -755,7 +768,7 @@ hr{
     }
 
     #article-content{
-        margin: 10% 0% 10% 5%;
+        margin: 10% 0% 10% 2%;
     }
 
     #article-content img{
@@ -771,7 +784,7 @@ hr{
     }
 
     .third-middle article h4{
-        font-size: 3.8rem;
+        font-size: 3.9rem;
     }
 
     #articles-desktop p{
@@ -822,7 +835,13 @@ hr{
         display: flex;
         padding: 0% 20%;
     }
-    
+
+    .commentaries{
+        background-color: #FAFBFF;
+        border-radius: 30px;
+        padding: 5%;
+        margin: 5%;
+    }
 
     .profile img{
         height: 70px;
@@ -848,28 +867,28 @@ hr{
         font-weight: 500;
         text-align: start;
         padding: 5% 9% 5% 10%;
-        font-size: 1.19rem;
+        font-size: .95rem;
         line-height: 140%;
     }
 
     #star{
         padding-left: 10%;
-        padding-bottom: 25%;
+        padding-bottom: 0%;
     }
 
     #selection{
-        height: 8px;
-        width: 200px;
+        height: 7px;
+        width: 230px;
         padding: 0% 0% 0% 0%;
-        margin: 0% 45%;
+        margin: 2% 0% 0% 44%;
     }
 
     .final{
-        padding: 15% 15% 5% 15%; 
+        padding: 10% 20% 5% 20%; 
     }
 
     .final p{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         padding-bottom: 5%;
     }
 
@@ -881,5 +900,58 @@ hr{
         font-size: 1rem;
     }
 
+    .footer-desktop{
+        display: flex;
+        align-items: center;
+        padding-top: 5%;
+    }
+
+    footer h1{
+        padding: 5% 0% 5% 5%;   
+        font-weight: 500;
+        font-size: 5rem;
+        width: 55%;
+        z-index: 10;
+        margin-right: 10%;
+    }
+    
+    .information{
+        display: flex;
+        padding: 5% 10% 0% 2%;
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 140%;
+        z-index: 10;
+    }
+    
+    .information img{
+        height: 70px;
+        width: 70px;
+        margin-bottom: 5%;
+        margin-right: 3%;
+        z-index: 10;
+    }
+    
+    .img-mobile{
+        display: none;
+    }
+
+    .information p{
+       padding: 1% 10% 10% 0%; 
+       z-index: 10;
+    }
+
+    .img-desktop{
+        display: flex;
+    }
+
+    .fundo-desktop{
+        height: 700px;
+        width: 600px;
+        display: flex;
+        position: absolute;
+        right: 5%;
+        z-index: 1;
+    }
 
 }
