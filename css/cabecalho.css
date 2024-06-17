@@ -30,7 +30,7 @@ header a{
 }
 
 
-@media (min-width: 1330px){
+@media (min-width: 1024px){
     .menu{
         display: none;
     }
