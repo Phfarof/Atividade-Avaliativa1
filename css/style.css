@@ -21,7 +21,7 @@ a{
 
 .initial div{
     font-family: var(--fonte1);
-    font-size: 15px;
+    font-size: .94rem;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -43,7 +43,7 @@ a{
 .initial p{
     font-family: var(--fonte1);
     color: #7E8492;
-    font-size: 16px;
+    font-size: 1rem;
     padding: 5% 8% 0% 6%;
 }
 
@@ -91,11 +91,11 @@ a{
 
 .users p{
     padding: 0% 15% 0% 0%;
-    font-size: 15px;
+    font-size: .94rem;
 }
 
 .users h3{
-    font-size: 18px;
+    font-size: 1.13rem;
     padding: 0% 0% 0% 3%;
 }
 
@@ -106,7 +106,7 @@ a{
 
 .all h4{
     font-family: var(--fonte2);
-    font-size: 8px;
+    font-size: .5rem;
 }
 
 .all{
@@ -166,14 +166,14 @@ a{
 
 .middle h1{
     padding: 0% 5%;
-    font-size: 30px;
+    font-size: 1.87rem;
     font-weight: 600;
 }
 
 .middle p {
     color: var(--cinza);
     padding: 5% 5% 7% 5%;
-    font-size: 17px;
+    font-size: 1rem;
 }
 
 .middle hr{
@@ -193,14 +193,14 @@ a{
 }
 
 .numbers h4{
-    font-size: 17px;
+    font-size: 1rem;
     padding: 5% 0% 0% 10%;
     font-weight: 600;
 }
 
 .numbers p{
     padding: 5% 5%;
-    font-size: 14px;
+    font-size: .87rem;
     padding: 3% 0% 0% 10%;
 }
 
@@ -219,7 +219,7 @@ a{
 }
 
 .second-middle h1{
-    font-size: 31px;
+    font-size: 1.9rem;
     font-weight: 600;
     padding-bottom: 5%;
 }
@@ -237,7 +237,7 @@ a{
 .checks{
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: .9rem;
 }
 
 .checks h4{
@@ -259,14 +259,14 @@ a{
 
 .third-middle h1{
     padding: 10% 5% 0% 5%;
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: 600;
 }
     
 .third-middle p{
     color: var(--cinza);
     padding: 3% 5% 10% 5%;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .third-middle a{
@@ -285,13 +285,13 @@ a{
 }
 
 .third-middle article h4{
-    font-size: 26px;
+    font-size: 1.6rem;
     padding: 5% 0% 0% 5%;
     font-weight: 600;
 }
 
 .third-middle article p{
-    font-size: 18px;
+    font-size: 1.2rem;
     padding-bottom: 20%;
 }
 
@@ -302,7 +302,7 @@ a{
 }
 
 #text{
-    font-size: 19px;
+    font-size: 1.2rem;
 }
 
 .end{
@@ -321,7 +321,7 @@ a{
 
 .end h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 1.89rem;
     font-weight: 600;
     padding-bottom: 5%;
 }
@@ -329,7 +329,7 @@ a{
 .end p{
     color: var(--cinza);
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     padding: 0% 5% 10% 5%;
 }
 
@@ -351,11 +351,11 @@ a{
 }
 
 .profile div h5{
-    font-size: 18px;
+    font-size: 1.12rem;
 }
 
 .profile div p{
-    font-size: 13px;
+    font-size: .8rem;
 }
 
 #profile-desktop{
@@ -367,7 +367,7 @@ a{
     font-weight: 500;
     text-align: start;
     padding: 5% 9% 5% 10%;
-    font-size: 17px;
+    font-size: 1rem;
 }
 
 #star{
@@ -387,7 +387,7 @@ a{
 }
 
 .final p{
-    font-size: 14px;
+    font-size: .87rem;
     padding-bottom: 10%;
 }
 
@@ -475,7 +475,7 @@ hr{
 
 .copyright{
     padding: 0% 0% 10% 7%;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 300;
 }
 
@@ -555,7 +555,7 @@ hr{
 
     .initial p{
         color: #7E8492;
-        font-size: 22px;
+        font-size: 1.37rem;
         padding: 2% 35% 0% 15%;
     }
 
@@ -1151,6 +1151,18 @@ hr{
     .footer-desktop, .footer-desktop-2, .copyright-mobile, .copyright-desktop{
         z-index: 100;
     }
+}
+
+@media (min-width: 1491px){
+    .btn .last img {
+        left: 25%;
+    }   
+}
+
+@media (min-width: 1702px){
+    .btn .last img {
+        left: 26%;
+    }   
 }
 
 @media (min-width: 1865px){

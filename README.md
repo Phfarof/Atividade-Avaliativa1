@@ -36,5 +36,5 @@ Estrutura do Projeto
 
 Contato:
  - Caso tenha alguma dúvida ou precise de mais informações, fale comigo:
-
-    Email: pedro_panstein@estudante.sesisenai.org.br
+      
+      Email: pedro_panstein@estudante.sesisenai.org.br
