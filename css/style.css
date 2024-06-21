@@ -1411,6 +1411,7 @@ hr{
     .checks h4{
         padding: 3% 0% 3% 3%;
         font-size: 20px;
+        white-space: nowrap;
     }
 
     .data{
