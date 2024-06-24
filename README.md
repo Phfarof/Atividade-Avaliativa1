@@ -8,7 +8,7 @@ O site foi desenvolvido para mostrar os principais recursos e benefícios do Coc
  - Colaboração em tempo real com compartilhamento de arquivos sob demanda.
  - Segurança integrada para proteção de dados e privacidade do usuário.
  - Desempenho excepcional através de tecnologia otimizada.
- - O site também apresenta depoimentos de clientes satisfeitos e estatísticas de sucesso da empresa, como número de projetos concluídos, ROI, downloads globais e avaliações de 5 estrelas.
+ - O site também apresenta depoimentos de clientes satisfeitos e estatísticas de sucesso da empresa, como número de projetos concluídos e avaliações de 5 estrelas.
 
 Informações do desenvolvedor:
  - Nome: Pedro Henrique Panstein
@@ -20,7 +20,7 @@ Instruções para Executar o Site Localmente:
 Passo a passo de como Clonar e Executar o Projeto?
 
  1- Primeiro clone o repositório,
-    entre nesse link que o levará direto ao repositório do site https://github.com/Phfarof/Atividade-Avaliativa1.
+    entre nesse link que o levará direto ao repositório do site https://github.com/Phfarof/Atividade-Avaliativa1 <br> 
     Após isso clique em code e depois na opção Dowload zip (baixar zip).
 
  2- Depois extraia o arquivo e abra o VS Code,
