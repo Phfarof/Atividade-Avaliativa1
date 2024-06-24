@@ -27,8 +27,6 @@
 }
 
 @media (min-width: 710px){
-    .
-
     .numbers:last-child {
         padding-top: 5%;
         padding-right: 5%;
@@ -204,6 +202,23 @@
         height: 8px;
         width: 400px;
         margin-left: 18%;
+    }
+
+    footer h1{
+        font-size: 2rem;
+    }
+
+    .information p{
+        font-size: 1.5rem;
+    }
+    
+    .information img{
+        height: 60px;
+        width: 60px;
+    }
+
+    #logo2{
+        
     }
 }
 
