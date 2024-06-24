@@ -213,8 +213,10 @@ a{
     display: none;
 }
 
+/* Usei o gradiente para não ficar uma mudança tão drástica na background */
+
 .third-middle{
-    background-color: #FAFBFF; 
+    background: linear-gradient(#FFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF, #FAFBFF); 
     padding-bottom: 15%;
 }
 
@@ -237,8 +239,6 @@ a{
     border-radius: 40px;
     margin: 10% 0% 0% 5%;
 }
-
-/* Os articles começam a dar erro no desktop e eu n sei porque, e não consegui arrumar */
 
 .third-middle article{
     background-color: var(--branco);
@@ -363,6 +363,7 @@ a{
 
 footer {
     background-color: var(--azul);
+    z-index: -1;
     color: var(--branco);
 }
 
@@ -448,4 +449,5 @@ hr{
 
 .fundo-desktop{
     display: none;
+    z-index: 1;
 }

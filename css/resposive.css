@@ -45,7 +45,7 @@
 
     .initial h1{
         font-family: var(--fonte2);
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: 500;
         line-height: 70px; 
         margin: 0% 0% 0% 9%;
@@ -53,8 +53,29 @@
 
     .initial p{
         color: #7E8492;
-        font-size: 1.37rem;
+        font-size: 1.5rem;
         padding: 2% 35% 0% 15%;
+    }
+
+    #sign{
+        font-size: 1.5rem;
+    }
+
+    .btn .first{
+        padding: 4% 25% 4% 25%;
+    }
+
+    #demo{
+        font-size: 1.5rem;
+    }
+
+    .btn .last {
+        padding: 4% 25%;
+    }
+
+    .btn .last img{
+        height: 35px;
+        left: 24%;
     }
 
     .all img{
@@ -74,6 +95,113 @@
 
     .users img{
         height: 50px;
+    }
+
+    .middle h1{
+        font-size: 2.5rem;
+    }
+
+    .middle p{
+        padding-top: 2%;
+        font-size: 1.2rem;
+    }
+
+    .numbers h2{
+        font-size: 2rem;
+    }
+
+    .numbers h4{
+        font-size: 1.5rem;
+    }
+
+    .second-middle{
+        margin-top: 20%;
+    }
+
+    .second-middle h1{
+        font-size: 2.5rem;
+        padding-bottom: 4%;
+    }
+
+    .second-middle p{
+        font-size: 1.3rem;        
+    }
+
+    .checks h4{
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding-left: 2%;
+    }
+
+    .checks img{
+        height: 34px;
+        width: 35px;
+    }
+
+    .data{
+        height: 400px;
+        width: 600px;
+    }
+
+    .third-middle h1{
+        font-size: 3rem;
+    }
+
+    .third-middle p{
+        font-size: 1.5rem;
+    }
+
+    .third-middle a{
+        font-size: 1.2rem;
+    }
+
+    .third-middle article h4{
+        font-size: 2.5rem;
+    }
+
+    .third-middle article p{
+        font-size: 1.7rem;
+    }
+
+    .third-middle article img{
+        height: 120px;
+        width: 120px;
+    }
+
+    .end a{
+        font-size: 1.5rem;
+    }
+
+    .end h1{
+        font-size: 2.5rem;
+        padding: 2% 5%;
+    }
+
+    .end p{
+        font-size: 1.2rem;
+    }
+    
+    .profile img{
+        height: 80px;
+        width: 80px;
+    }
+
+    .profile div h5{
+        font-size: 1.5rem;    
+    }
+
+    .profile div p{
+        font-size: 1.2rem;
+    }
+
+    #coment{
+        font-size: 1.5rem;
+    }
+
+    #selection{
+        height: 8px;
+        width: 400px;
+        margin-left: 18%;
     }
 }
 
@@ -101,6 +229,7 @@
     .initial div p{
         padding-left: 1%;
         color: #000000;
+        white-space: nowrap;
     }
 
     .initial div {
@@ -132,6 +261,14 @@
         gap: 30px;
     }
     
+    #sign{
+        font-size: 1rem;
+    }
+
+    #demo{
+        font-size: 1rem;
+    }  
+
     .btn .first{
         padding: 2% 5% 2% 5%;
         margin-bottom: 0%;
@@ -140,14 +277,14 @@
     
     .btn .last{
         padding: 2% 5% 2% 7%;
-        font-weight: 800;
+        font-weight: 800;   
     }
     
     .btn .last img{
         height: 20px;
         width: 20px;
         position: absolute;
-        left: 25%;
+        left: 25.6%;
     }
 
     .users{
@@ -205,6 +342,7 @@
     .middle h1{
         padding: 0% 4% 0% 7%;
         font-size: 3rem;
+        width: 70%;
     }
     
     .middle .desktop-2 p {
@@ -236,18 +374,19 @@
     }
 
     .numbers h4{
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         padding-top: 0%;
+        white-space: nowrap;
     }
 
     .numbers p{
         padding: 2% 5% 0% 10%;
-        font-size: 1.56rem;
-        line-height: 40px;
+        font-size: 1.1rem;
+        line-height: 30px;
     }
 
     #last-p{
-        font-size: 1.56rem;
+        font-size: 1.1rem;
         padding: 2% 5% 0% 10%;
     }
 
@@ -268,13 +407,13 @@
     .second-middle h1{
         font-size: 2rem;
         font-weight: 600;
-        padding: 0% 34% 2% 2%;
+        padding: 0% 24% 2% 2%;
     }
     
     .second-middle p{
         color: var(--cinza);
         font-size: 1rem;
-        padding: 0% 58% 6% 2%;
+        padding: 0% 35% 8% 2%;
         line-height: 180%;
     }
 
@@ -316,6 +455,7 @@
         height: 300px;
         width: 650px;
         margin-right: 2%;
+        margin-top: 2%;
     }
 
     .image-desktop{
@@ -328,25 +468,28 @@
 
     .third-middle h1{
         font-family: var(--fonte2);
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
 
     .third-middle p{
         font-size: 1.5rem;
-        padding: 1% 58% 5% 5%;
+        padding: 1% 40% 5% 5%;
         line-height: 150%;
     }
     
     .third-middle a{
         padding: 1% 2% 1% 2%;
+        font-size: 1.2rem;
     }
 
     .third-middle article{
         margin: 10% 2% 10% 2%;  
+        width: 50%;
     }
 
     #article-content{
         margin: 10% 0% 10% 2%;
+        width: 50%;
     }
 
     #article-content img{
@@ -354,7 +497,8 @@
     }
 
     #article-content-2{
-        margin: 10% 0% 10% 5%;
+        margin: 10% 0% 10% 2%;
+        width: 50%;
     }
 
     #articles-desktop{
@@ -379,8 +523,7 @@
 
     #text p{
         font-size: 1rem;
-        padding-bottom: 15%;
-    
+        padding-bottom: 30%;
     }
 
     .end{
@@ -389,14 +532,14 @@
     }
 
     .end a{
-        margin: 2% 35% 2% 35%;
-        padding: .5% 0% .5% 0%;
+        margin: 2% 37% 2% 37%;
+        padding: 1% 0% 1% 0%;
         font-weight: 600;
         font-size: 1rem;
     }
 
     .end h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         padding-bottom: 2%;
     }
 
@@ -432,12 +575,14 @@
     }
     
     .profile div h5{
-        font-size: 1.25rem;
+        font-size: 1rem;
+        white-space: nowrap;
     }
     
     .profile div p{
         font-size: .9rem;
         padding: 0%;
+        white-space: nowrap;
     }
     
     #coment{
@@ -458,7 +603,7 @@
         height: 7px;
         width: 230px;
         padding: 0% 0% 0% 0%;
-        margin: 2% 0% 0% 44%;
+        margin: 2% 0% 0% 38%;
     }
 
     .final{
@@ -604,17 +749,63 @@
     }
 }
 
-
-
 @media (min-width: 1491px){
     .btn .last img {
         left: 26%;
     }   
 }
 
+@media (min-width: 1600px){
+    .initial h1{
+        font-size: 3.5rem;
+    }
+    
+    .initial p{
+        font-size: 1.4rem;
+    }
+
+    .all img{
+        height: 700px;
+        width: 700px;
+    }
+
+    .btn .last img {
+        left: 22%;
+    } 
+
+    .second-middle-desktop{
+        justify-content: space-around;
+    }
+
+    .data-desktop{
+        margin-left: 6%;
+    }
+
+    .third-middle h1{
+        font-size: 3.5rem;
+    }
+
+    .third-middle p{
+        font-size: 1.5rem;
+    }
+
+    .third-middle a{
+        font-size: 1.5rem;
+    }
+
+    #articles-desktop p{
+        font-size: 1.5rem;
+    }
+
+    .third-middle article img{
+        height: 22%;
+        width: 20%;
+    }
+}
+
 @media (min-width: 1702px){
     .btn .last img {
-        left: 26.5%;
+        left: 22.5%;
     }   
 }
 
@@ -885,10 +1076,12 @@
 
     .third-middle article{
         margin: 10% 2% 10% 2%;  
+        width: 45%;
     }
 
     #article-content{
         margin: 10% 0% 10% 2%;
+        width: 50%;
     }
 
     #article-content img{
@@ -896,7 +1089,8 @@
     }
 
     #article-content-2{
-        margin: 10% 0% 10% 5%;
+        margin: 10% 0% 10% 2%;
+        width: 50%;
     }
 
     #articles-desktop{
@@ -904,12 +1098,12 @@
     }
 
     .third-middle article h4{
-        font-size: 3.9rem;
+        font-size: 4rem;
     }
 
     #articles-desktop p{
         font-size: 1.5rem;
-        padding: 5% 0% 10% 5%;
+        padding: 5% 0% 20% 5%;
         width: 85%;
     }
     
@@ -920,9 +1114,8 @@
     }
 
     #text p{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         padding-bottom: 25%;
-    
     }
 
     .end{
