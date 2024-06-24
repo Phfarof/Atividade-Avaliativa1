@@ -100,52 +100,13 @@ a{
 }
 
 .all{
-    background-image: url(/img/fundo.png);
-    background-size: cover;
+    text-align: center;
 }
 
-.all h4{
-    font-family: var(--fonte2);
-    font-size: .5rem;
-}
-
-.all{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 10%;
-}
-
-.graphics{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.graphics img{
-    border-radius: 5px;
-    margin: 2%;
-}
-
-#graphic1{
-    height: 130px;
-    width: 170px;
-    
-}
-
-#graphic2{
-    height: 150px;
-    width: 170px;
-}
-
-#graphic3{
-    height: 230px;
-    width: 150px;
-       
-}
-
-#graphic4{
-    height: 150px;
-    width: 170px;
+.all img{
+    height: 400px;
+    width: 350px;
+    margin-bottom: 5%;
 }
 
 .bar{
@@ -276,6 +237,8 @@ a{
     border-radius: 40px;
     margin: 10% 0% 0% 5%;
 }
+
+/* Os articles começam a dar erro no desktop e eu n sei porque, e não consegui arrumar */
 
 .third-middle article{
     background-color: var(--branco);
@@ -502,29 +465,9 @@ hr{
         left: 20%;
     }
 
-    #graphic1{
-        height: 240px;
-        width: 260px;
-        padding: 5%;
-        
-    }
-    
-    #graphic2{
-        height: 240px;
-        width: 260px;
-        padding: 1%;
-    }
-    
-    #graphic3{
-        height: 420px;
-        width: 220px;
-        padding: 1%;
-    }
-    
-    #graphic4{
-        height: 190px;
-        width: 260px;
-        padding: 1%;
+    .all img{
+        height: 500px;
+        width: 470px; 
     }
 }
 
@@ -559,33 +502,9 @@ hr{
         padding: 2% 35% 0% 15%;
     }
 
-    .graphics img{
-        border-radius: 20px;
-    }
-
-    #graphic1{
-        height: 320px;
-        width: 360px;
-        padding: 5%;
-        
-    }
-    
-    #graphic2{
-        height: 340px;
-        width: 360px;
-        padding: 1%;
-    }
-    
-    #graphic3{
-        height: 520px;
-        width: 320px;
-        padding: 1%;
-    }
-    
-    #graphic4{
-        height: 290px;
-        width: 360px;
-        padding: 1%;
+    .all img{
+        height: 650px;
+        width: 670px; 
     }
 
     .users{
@@ -643,37 +562,13 @@ hr{
 
     .initial p{
         color: #7E8492;
-        font-size: 18px;
+        font-size: 1.12rem;
         padding: 2% 35% 0% 15%;
     }
 
-    .graphics img{
-        border-radius: 20px;
-    }
-
-    #graphic1{
-        height: 230px;
-        width: 270px;
-        padding: 5%;
-        
-    }
-    
-    #graphic2{
-        height: 250px;
-        width: 270px;
-        padding: 1%;
-    }
-    
-    #graphic3{
-        height: 430px;
-        width: 230px;
-        padding: 1%;
-    }
-    
-    #graphic4{
-        height: 200px;
-        width: 270px;
-        padding: 1%;
+    .all img{
+        height: 600px;
+        width: 500px; 
     }
 
     .btn{
@@ -697,7 +592,7 @@ hr{
         height: 20px;
         width: 20px;
         position: absolute;
-        left: 24%;
+        left: 25%;
     }
 
     .users{
@@ -707,7 +602,7 @@ hr{
 
     .users p{
         padding: 0% 0% 0% 0%;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     
     .users h3{
@@ -786,18 +681,18 @@ hr{
     }
 
     .numbers h4{
-        font-size: 27px;
+        font-size: 1.7rem;
         padding-top: 0%;
     }
 
     .numbers p{
         padding: 2% 5% 0% 10%;
-        font-size: 25px;
+        font-size: 1.56rem;
         line-height: 40px;
     }
 
     #last-p{
-        font-size: 25px;
+        font-size: 1.56rem;
         padding: 2% 5% 0% 10%;
     }
 
@@ -836,7 +731,7 @@ hr{
     .checks{
         display: flex;
         align-items: center;
-        font-size: 18px;
+        font-size: 1.12rem;
         padding-top: 5%;
     }
     
@@ -848,6 +743,7 @@ hr{
     .checks h4{
         padding: 3% 0% 3% 3%;
         font-size: 1rem;
+        white-space: nowrap;
     }
 
     .data{
@@ -981,11 +877,11 @@ hr{
     }
     
     .profile div h5{
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     
     .profile div p{
-        font-size: 15px;
+        font-size: .9rem;
         padding: 0%;
     }
     
@@ -1144,7 +1040,7 @@ hr{
 
     .copyright{
         padding: 0% 0% 1% 7%;
-        font-size: 18px;
+        font-size: 1.12rem;
         font-weight: 300;
     }
 
@@ -1153,15 +1049,17 @@ hr{
     }
 }
 
+
+
 @media (min-width: 1491px){
     .btn .last img {
-        left: 25%;
+        left: 26%;
     }   
 }
 
 @media (min-width: 1702px){
     .btn .last img {
-        left: 26%;
+        left: 26.5%;
     }   
 }
 
@@ -1175,7 +1073,7 @@ hr{
 
     .initial p{
         color: #000000;
-        font-size: 16px;
+        font-size: 1rem;
         padding: 5% 8% 0% 6%;
     }
 
@@ -1198,7 +1096,7 @@ hr{
 
     .initial h1{
         font-family: var(--fonte2);
-        font-size: 87px;
+        font-size: 5.3rem;
         font-weight: 500;
         line-height: 100px; 
         margin: 0% 0% 0% 9%;
@@ -1206,37 +1104,13 @@ hr{
 
     .initial p{
         color: #7E8492;
-        font-size: 22px;
+        font-size: 1.37rem;
         padding: 2% 35% 0% 15%;
     }
 
-    .graphics img{
-        border-radius: 20px;
-    }
-
-    #graphic1{
-        height: 330px;
-        width: 370px;
-        padding: 5%;
-        
-    }
-    
-    #graphic2{
-        height: 350px;
-        width: 370px;
-        padding: 1%;
-    }
-    
-    #graphic3{
-        height: 530px;
-        width: 330px;
-        padding: 1%;
-    }
-    
-    #graphic4{
-        height: 300px;
-        width: 370px;
-        padding: 1%;
+    .all img{
+        height: 750px;
+        width: 700px;
     }
 
     .btn{
@@ -1260,7 +1134,7 @@ hr{
         height: 30px;
         width: 30px;
         position: absolute;
-        left: 20.5%;
+        left: 21%;
     }
 
     .users{
@@ -1270,11 +1144,11 @@ hr{
 
     .users p{
         padding: 0% 0% 0% 0%;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     
     .users h3{
-        font-size: 20px;
+        font-size: 1.25rem;
         padding: 0% 0% 0% 0%;
     }
 
@@ -1317,13 +1191,13 @@ hr{
 
     .middle h1{
         padding: 0% 4% 0% 7%;
-        font-size: 80px;
+        font-size: 5rem;
     }
     
     .middle .desktop-2 p {
         color: var(--cinza);
         padding: 0% 5% 0% 4%;
-        font-size: 20px;
+        font-size: 1.25rem;
         width: 35%;
         line-height: 40px;
         font-weight: 500;
@@ -1343,24 +1217,24 @@ hr{
 
     .numbers h2{
         font-family: var(--fonte2);
-        font-size: 55px;
+        font-size: 3.43rem;
         padding-bottom: 1%;
 
     }
 
     .numbers h4{
-        font-size: 27px;
+        font-size: 1.68rem;
         padding-top: 0%;
     }
 
     .numbers p{
         padding: 2% 5% 0% 10%;
-        font-size: 25px;
+        font-size: 1.56rem;
         line-height: 40px;
     }
 
     #last-p{
-        font-size: 25px;
+        font-size: 1.56rem;
         padding: 2% 5% 0% 10%;
     }
 
@@ -1379,14 +1253,14 @@ hr{
     }
     
     .second-middle h1{
-        font-size: 70px;
+        font-size: 4.4rem;
         font-weight: 600;
         padding: 0% 34% 2% 2%;
     }
     
     .second-middle p{
         color: var(--cinza);
-        font-size: 20px;
+        font-size: 1.25rem;
         padding: 0% 58% 6% 2%;
         line-height: 180%;
     }
@@ -1399,7 +1273,7 @@ hr{
     .checks{
         display: flex;
         align-items: center;
-        font-size: 18px;
+        font-size: 1.12rem;
         padding-top: 5%;
     }
     
@@ -1410,7 +1284,7 @@ hr{
 
     .checks h4{
         padding: 3% 0% 3% 3%;
-        font-size: 20px;
+        font-size: 1.25rem;
         white-space: nowrap;
     }
 
@@ -1549,7 +1423,7 @@ hr{
     }
     
     .profile div p{
-        font-size: 15px;
+        font-size: .94rem;
         padding: 0%;
     }
     
@@ -1708,7 +1582,7 @@ hr{
 
     .copyright{
         padding: 0% 0% 1% 7%;
-        font-size: 18px;
+        font-size: 1.12rem;
         font-weight: 300;
     }
 
