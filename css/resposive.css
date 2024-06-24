@@ -218,9 +218,27 @@
     }
 
     #logo2{
-        height: 75px;
-        width: 160px;
+        height: 95px;
+        width: 190px;
         margin: 5% 0% 5% 5%;
+    }
+
+    .other-information{
+        font-size: 1.2rem;
+    }
+
+    .media img{
+        height: 20px;
+        width: 20px;
+    }
+
+    .terms{
+        font-size: 1.3rem;
+    }
+
+    .copyright{
+        font-size: 1.3rem;
+        padding-bottom: 7%;
     }
 }
 
