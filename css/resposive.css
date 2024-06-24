@@ -218,7 +218,9 @@
     }
 
     #logo2{
-        
+        height: 75px;
+        width: 160px;
+        margin: 5% 0% 5% 5%;
     }
 }
 
