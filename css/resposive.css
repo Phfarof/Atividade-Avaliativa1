@@ -1173,13 +1173,13 @@
     }
 
     .end h1{
-        font-size: 5rem;
+        font-size: 4.5rem;
         padding-bottom: 2%;
     }
 
     .end p{
-        font-size: 1.9rem;
-        padding: 0% 22% 5% 22%;
+        font-size: 1.5rem;
+        padding: 0% 28% 5% 28%;
     }
 
     #profile-desktop{
@@ -1194,13 +1194,14 @@
     .commentaries{
         background-color: #FAFBFF;
         border-radius: 30px;
-        padding: 5%;
+        padding: 8% 2% 8% 8%;
         margin: 5%;
     }
 
     .profile img{
         height: 70px;
         width: 70px;
+        margin-left: 8%;
     }
     
     .profile div{
@@ -1221,13 +1222,13 @@
         color: #000;
         font-weight: 500;
         text-align: start;
-        padding: 5% 9% 5% 10%;
-        font-size: .95rem;
+        padding: 5% 0% 5% 6%;
+        font-size: .9rem;
         line-height: 140%;
     }
 
     #star{
-        padding-left: 10%;
+        padding-left: 5%;
         padding-bottom: 0%;
     }
 
@@ -1245,6 +1246,10 @@
     .final p{
         font-size: 1.2rem;
         padding-bottom: 5%;
+    }
+
+    #final-desktop{
+        padding: 0% 18% 5% 18%;
     }
 
     .final a{
