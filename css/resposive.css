@@ -766,13 +766,14 @@
         padding-top: 2%;
         padding-bottom: 1%;
         justify-content: space-between;
-        z-index: 10;
+        z-index: 100;
     }
 
     .copyright-desktop div{
         display: flex;
         gap: 30px;
         padding-right: 5%;
+        z-index: 100;
     }
 
     .copyright{
@@ -953,7 +954,7 @@
 
     .bar-2 img{
         height: 45px;
-        width: 100px;
+        width: 120px;
     }
 
     #afterpay{
@@ -981,7 +982,7 @@
         color: var(--cinza);
         padding: 0% 5% 0% 4%;
         font-size: 1.25rem;
-        width: 35%;
+        width: 25%;
         line-height: 40px;
         font-weight: 500;
     }
@@ -1038,13 +1039,13 @@
     .second-middle h1{
         font-size: 4.4rem;
         font-weight: 600;
-        padding: 0% 34% 2% 2%;
+        padding: 0% 30% 2% 2%;
     }
     
     .second-middle p{
         color: var(--cinza);
-        font-size: 1.25rem;
-        padding: 0% 58% 6% 2%;
+        font-size: 1.4rem;
+        padding: 0% 48% 6% 2%;
         line-height: 180%;
     }
 
@@ -1069,6 +1070,7 @@
         padding: 3% 0% 3% 3%;
         font-size: 1.25rem;
         white-space: nowrap;
+        font-weight: 700;
     }
 
     .data{
@@ -1102,13 +1104,15 @@
     }
 
     .third-middle p{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         padding: 1% 58% 5% 5%;
         line-height: 150%;
     }
     
     .third-middle a{
         padding: 1% 2% 1% 2%;
+        font-size: 1.1rem;
+        font-weight: 600;
     }
 
     .third-middle article{
@@ -1136,6 +1140,7 @@
 
     .third-middle article h4{
         font-size: 4rem;
+        padding-right: 10%;
     }
 
     #articles-desktop p{

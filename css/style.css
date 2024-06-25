@@ -396,10 +396,12 @@ footer h1{
     height: 65px;
     width: 140px;
     margin: 5% 0% 10% 5%;
+    cursor: pointer;
 }
 
 #logo2-dektop{
     display: none;
+    cursor: pointer;
 }
 
 .other-information{
@@ -407,6 +409,10 @@ footer h1{
     padding: 0% 0% 5% 5%;
     gap: 25px;
     font-weight: 500;
+}
+
+.other-information p{
+    cursor: pointer;
 }
 
 .other-information-desktop{
@@ -418,6 +424,7 @@ footer h1{
     width: 150px;
     margin-left: 5%;
     margin-bottom: 6%;
+    z-index: 100;
 }
 
 .media img{
@@ -435,6 +442,7 @@ hr{
     justify-content: space-around;
     padding: 6% 0% 5% 0%;
     font-weight: 500;
+    z-index: 100;
 }
 
 .copyright{
