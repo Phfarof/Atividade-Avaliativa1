@@ -9,6 +9,7 @@ O site foi desenvolvido para mostrar os principais recursos e benefícios do Coc
  - Segurança integrada para proteção de dados e privacidade do usuário.
  - Desempenho excepcional através de tecnologia otimizada.
  - O site também apresenta depoimentos de clientes satisfeitos e estatísticas de sucesso da empresa, como número de projetos concluídos e avaliações de 5 estrelas.
+ - O site está responsivo para qualquer tipo de tela que esteja entre larguras de 1920px à 375px 
 
 Informações do desenvolvedor:
  - Nome: Pedro Henrique Panstein
@@ -20,19 +21,21 @@ Instruções para Executar o Site Localmente:
 Passo a passo de como Clonar e Executar o Projeto?
 
  1- Primeiro clone o repositório,
-    entre nesse link que o levará direto ao repositório do site https://github.com/Phfarof/Atividade-Avaliativa1 <br> 
+    caso você queira entre nesse link que o levará direto ao repositório no GitHub https://github.com/Phfarof/Atividade-Avaliativa1. <br> 
     Após isso clique em code e depois na opção Dowload zip (baixar zip).
 
- 2- Depois extraia o arquivo e abra o VS Code,
-    vá nas opções de arquivos e importe a pasta do site.
-    Depois baixe uma extensão chamada Live Server e clique em go live ou clique com o botão direito em cima do arquivo index.html e selecione a opção Open With Live Server.
+ 2- Extraia o arquivo para sua área de trabalho ou qualquer pasta de sua preferência e abra o VS Code, <br>
+      vá nas opções de arquivos e importe a pasta do site. <br>
+      Depois baixe uma extensão chamada Live Server e clique em go live ou clique com o botão direito em cima do arquivo index.html e selecione a opção Open With Live Server.
 
 Seguindo esses passos será possivel executar o site localmente
 
-Estrutura do Projeto
+Estrutura do Projeto:
  - index.html: Arquivo principal que tem toda a estrutura do site, tanto na parte mobile quanto na desktop.
- - style.css: Arquivo para estilizar o site, sendo usado somente na index.html e contendo todos os media querys.
- - img: Pasta em que todas as imagens utilizadas foram armazenadas, todas as fotos tem um nome que remetem á função delas no código.
+ - style.css: Arquivo para estilizar o site no geral, sendo usado somente na index.html.
+ - responsive.css: Arquivo para ajustar as responsividades do site, sendo usado somente para armazenar os media querys.
+ - cabecalho.css: Arquivo para estilizar e ajustar a responsividade do cabecalho, sendo usado somente para isso.
+ - img: Pasta em que todas as imagens utilizadas foram armazenadas, todas as fotos tem um nome que remetem á função delas no código, ou que remetem ao próprio nome delas.
 
 Contato:
  - Caso tenha alguma dúvida ou precise de mais informações, fale comigo:
