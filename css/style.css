@@ -74,6 +74,7 @@ a{
     height: 20px;
     position: absolute;
     left: 13%;
+    cursor: pointer;
 }
 
 #sign{
